@@ -1,4 +1,4 @@
-import { transparentize } from 'polished'
+// import { transparentize } from 'polished'
 import React, { useMemo } from 'react'
 import styled, {
   ThemeProvider as StyledComponentsThemeProvider,
@@ -9,8 +9,8 @@ import styled, {
 import { useIsDarkMode } from '../state/user/hooks'
 import { Text, TextProps } from 'rebass'
 import { Colors } from './styled'
-import lightPaws from'../assets/images/Light-Paws.png'
-import darkPaws from'../assets/images/Dark-Paws.png'
+//import lightPaws from'../assets/images/Light-Paws.png'
+// import darkPaws from'../assets/images/Dark-Paws.png'
 
 export * from './components'
 
@@ -228,11 +228,5 @@ body {
   min-height: 100vh;
   background-position: center , 0 -30vh;
   background-repeat: no-repeat;
-  background-image: ${({ theme }) =>
-    `url(${theme.text1 === '#FFFFFF' ? darkPaws : lightPaws}),
-      radial-gradient(50% 50% at 50% 50%, ${transparentize(0.9, theme.primary1)} 0%, ${transparentize(
-      1,
-      theme.bg1
-    )} 100%)`};
 }
 `
