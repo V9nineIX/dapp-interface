@@ -7,7 +7,7 @@ import { fortmatic, injected, portis, walletconnect, walletlink } from '../conne
 // export const ROUTER_ADDRESS = '0x9288C83F77D291cc5d472d7d440Caeb8A98d0f08'
 //export const ROUTER_ADDRESS = '0x15d1cfA4e71f9B8c7C1BFAeDE30fDE4cAe7Cd20C' // work
 // export const ROUTER_ADDRESS = '0xB3B2a3bdAED4572ecf30926A1BcF5Ca5Dd72f056'
-export const ROUTER_ADDRESS = '0xcef25f0f4c9A5821869133286475d1431096EF59'
+export const ROUTER_ADDRESS = '0x132cf5BAD802347994c1fe9A9592F97Aec5Ba512'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
